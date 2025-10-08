@@ -1,0 +1,12 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers-extra/features/node-asdf:0": {
+			"version": "latest"
+		},
+		"ghcr.io/davzucky/devcontainers-features-wolfi/node:1": {
+			"installNpm": true,
+			"nodeVersion": "20"
+		}
+	}
+}
